@@ -1,0 +1,41 @@
+.repositories_wrapper {
+  width: 880px;
+  height: 85%;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+
+  &::-webkit-scrollbar {
+    width: 10px; /* ширина для вертикального скролла */
+    height: 3px; /* высота для горизонтального скролла */
+    background-color: #d7d7d7;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #acabab;
+    border-radius: 9em;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: black;
+
+    margin-bottom: 30px;
+  }
+
+
+  .repositories {
+    height: 440px;
+    width: 100%;
+  }
+
+
+}

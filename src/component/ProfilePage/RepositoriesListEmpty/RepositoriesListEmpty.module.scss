@@ -1,0 +1,13 @@
+.empty_wrapper {
+  width: 880px;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    text-align: center;
+  }
+}
